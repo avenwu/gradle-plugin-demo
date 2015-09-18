@@ -1,0 +1,12 @@
+buildscript {
+	repositories {
+		maven {
+			url uri('../repo')
+		}
+	}
+	dependencies {
+		classpath group:'net.avenwu', name:'Gradle', version:'0.0.1-SNAPSHOT'
+	}
+}
+
+apply plugin: 'plugin-demo'
